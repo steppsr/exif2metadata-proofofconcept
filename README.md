@@ -10,10 +10,13 @@
 * integrate the collection data with the EXIF data to build a final metadata file.
 
 ### Prerequisites
-You will need to install `exiftools` in order to extract the EXIF data. Here is how to do that install:
-```
-sudo apt install exiftool
-```
+The install will check for a couple of additional tools in order to handle JSON objects and extract the EXIF data. 
+If those are not already installed, the installer will load those as well. You may need to enter your password for
+those installations.
+
+**jq** - a lightweight and flexible command-line JSON processor.
+
+**exiftool** - a powerful tool used to extract metadata of a file.
 
 ### Installing
 You can install the application by running the following install command. This will basically create all the needed subfolders for you.

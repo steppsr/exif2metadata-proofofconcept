@@ -7,12 +7,29 @@
 appdir=`pwd`
 
 echo ""
+
+# Prequisite: jq - check if installed already and if not run the installer
+if ! command -v jq &> /dev/null
+then
+    echo "Installing jq..."
+    sudo apt install jq
+fi
+
+# Prequisite: exiftool - check if installed already and if not run the installer
+if ! command -v exiftool &> /dev/null
+then
+    echo "Installing exiftool..."
+    sudo apt install exiftool
+fi
+
+# Create the working folders for the application
 echo "Installing into $appdir directory."
 
 [ ! -d "$appdir/collections" ] && mkdir "$appdir/collections" && echo "collections sub-directory created."
 [ ! -d "$appdir/metadata" ] && mkdir "$appdir/metadata" && echo "metadata sub-directory created."
 [ ! -d "$appdir/ready" ] && mkdir "$appdir/ready" && echo "ready sub-directory created."
 
+# Set the two script as executable
 echo "Making the script executable."
 chmod +x ./prep.sh
 chmod +x ./exif2metadata.sh
