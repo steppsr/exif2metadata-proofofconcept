@@ -9,6 +9,12 @@
 * script to extract EXIF data from a photograph
 * integrate the collection data with the EXIF data to build a final metadata file.
 
+### Prerequisites
+You will need to install `exiftools` in order to extract the EXIF data. Here is how to do that install:
+```
+sudo apt install exiftool
+```
+
 ### Installing
 You can install the application by running the following install command. This will basically create all the needed subfolders for you.
 ```
