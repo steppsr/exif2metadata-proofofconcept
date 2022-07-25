@@ -6,7 +6,7 @@
 
 ### Goals
 * script to create collection metadata
-* script to extract EXIF data from a photography
+* script to extract EXIF data from a photograph
 * integrate the collection data with the EXIF data to build a final metadata file.
 
 ### Installing
