@@ -1,0 +1,30 @@
+{
+  "id": "04d1b6c0-2b45-4633-b8b6-9bf81fc7ef40",
+  "name": "Traveling_Man",
+  "attributes": [
+    {
+      "type": "description",
+      "value": "Traveling Man in Dallas Texas"
+    },
+    {
+      "type": "icon",
+      "value": "https://bafybeif4h222roibxnbo7er5zd5o24atbgnwymj7aaj7frdgzkk235goy4.ipfs.nftstorage.link"
+    },
+    {
+      "type": "banner",
+      "value": "https://bafybeif4h222roibxnbo7er5zd5o24atbgnwymj7aaj7frdgzkk235goy4.ipfs.nftstorage.link"
+    },
+    {
+      "type": "feature",
+      "value": "https://bafybeif4h222roibxnbo7er5zd5o24atbgnwymj7aaj7frdgzkk235goy4.ipfs.nftstorage.link"
+    },
+    {
+      "type": "Twitter",
+      "value": "https://twitter.com/steppsr"
+    },
+    {
+      "type": "Website",
+      "value": "https://xchdev.com"
+    }
+  ]
+}

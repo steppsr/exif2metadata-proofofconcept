@@ -1,0 +1,71 @@
+{
+  "format": "CHIP-0007",
+  "name": "Traveling Man",
+  "description": "Traveling Man",
+  "minting_tool": "",
+  "sensitive_content": "false",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "Steven Stepp"
+    },
+    {
+      "trait_type": "Date",
+      "value": "2014-02-26"
+    },
+    {
+      "trait_type": "Camera",
+      "value": "Apple iPhone 4"
+    },
+    {
+      "trait_type": "Lens",
+      "value": ""
+    },
+    {
+      "trait_type": "Size",
+      "value": "2356x1694 • 4.0 megapixels • 240 dpi x 240 dpi"
+    },
+    {
+      "trait_type": "Details",
+      "value": "3.9 mm • f/2.8 • 1/1800 s • ISO 80"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Old East Dallas"
+    },
+    {
+      "trait_type": "Keywords",
+      "value": "Cityscape, Dallas, Stepp, Steve, Steven Stepp, Texas, Traveling Man"
+    }
+  ],
+  "collection": {
+    "id": "04d1b6c0-2b45-4633-b8b6-9bf81fc7ef40",
+    "name": "Traveling_Man",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "Traveling Man in Dallas Texas"
+      },
+      {
+        "type": "icon",
+        "value": "https://bafybeif4h222roibxnbo7er5zd5o24atbgnwymj7aaj7frdgzkk235goy4.ipfs.nftstorage.link"
+      },
+      {
+        "type": "banner",
+        "value": "https://bafybeif4h222roibxnbo7er5zd5o24atbgnwymj7aaj7frdgzkk235goy4.ipfs.nftstorage.link"
+      },
+      {
+        "type": "feature",
+        "value": "https://bafybeif4h222roibxnbo7er5zd5o24atbgnwymj7aaj7frdgzkk235goy4.ipfs.nftstorage.link"
+      },
+      {
+        "type": "Twitter",
+        "value": "https://twitter.com/steppsr"
+      },
+      {
+        "type": "Website",
+        "value": "https://xchdev.com"
+      }
+    ]
+  }
+}
